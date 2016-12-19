@@ -1,27 +1,27 @@
-Datacenter: dc1; Host: /192.168.81.129; Rack: rack1
-Datacenter: dc1; Host: /192.168.81.130; Rack: rack1
-Datacenter: dc1; Host: /192.168.81.131; Rack: rack1
-[OVERALL], RunTime(ms), 12424.0
-[OVERALL], Throughput(ops/sec), 80.48937540244688
-[TOTAL_GCS_PS_Scavenge], Count, 5.0
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 33.0
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.2656149388280747
-[TOTAL_GCS_PS_MarkSweep], Count, 0.0
-[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0.0
-[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
-[TOTAL_GCs], Count, 5.0
-[TOTAL_GC_TIME], Time(ms), 33.0
-[TOTAL_GC_TIME_%], Time(%), 0.2656149388280747
+Datacenter: dc1; Host: /172.31.1.186; Rack: rack1
+Datacenter: dc1; Host: /172.31.5.56; Rack: rack1
+Datacenter: dc1; Host: /172.31.12.113; Rack: rack1
+[OVERALL], RunTime(ms), 5957.0
+[OVERALL], Throughput(ops/sec), 167.8697330871244
+[TOTAL_GCS_Copy], Count, 20.0
+[TOTAL_GC_TIME_Copy], Time(ms), 53.0
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.8897095853617593
+[TOTAL_GCS_MarkSweepCompact], Count, 0.0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0.0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 20.0
+[TOTAL_GC_TIME], Time(ms), 53.0
+[TOTAL_GC_TIME_%], Time(%), 0.8897095853617593
 [CLEANUP], Operations, 1.0
-[CLEANUP], AverageLatency(us), 2253824.0
-[CLEANUP], MinLatency(us), 2252800.0
-[CLEANUP], MaxLatency(us), 2254847.0
-[CLEANUP], 95thPercentileLatency(us), 2254847.0
-[CLEANUP], 99thPercentileLatency(us), 2254847.0
+[CLEANUP], AverageLatency(us), 2229248.0
+[CLEANUP], MinLatency(us), 2228224.0
+[CLEANUP], MaxLatency(us), 2230271.0
+[CLEANUP], 95thPercentileLatency(us), 2230271.0
+[CLEANUP], 99thPercentileLatency(us), 2230271.0
 [INSERT], Operations, 1000.0
-[INSERT], AverageLatency(us), 8686.986
-[INSERT], MinLatency(us), 2648.0
-[INSERT], MaxLatency(us), 269055.0
-[INSERT], 95thPercentileLatency(us), 18111.0
-[INSERT], 99thPercentileLatency(us), 64127.0
+[INSERT], AverageLatency(us), 2419.545
+[INSERT], MinLatency(us), 1141.0
+[INSERT], MaxLatency(us), 41951.0
+[INSERT], 95thPercentileLatency(us), 4455.0
+[INSERT], 99thPercentileLatency(us), 8695.0
 [INSERT], Return=OK, 1000
