@@ -1,0 +1,30 @@
+Datacenter: dc1; Host: /172.31.15.141; Rack: rack1
+Datacenter: dc1; Host: /172.31.1.186; Rack: rack1
+Datacenter: dc1; Host: /172.31.5.56; Rack: rack1
+Datacenter: dc1; Host: /172.31.11.197; Rack: rack1
+Datacenter: dc1; Host: /172.31.12.113; Rack: rack1
+Datacenter: dc1; Host: /172.31.15.126; Rack: rack1
+[OVERALL], RunTime(ms), 4167.0
+[OVERALL], Throughput(ops/sec), 239.98080153587713
+[TOTAL_GCS_Copy], Count, 16.0
+[TOTAL_GC_TIME_Copy], Time(ms), 52.0
+[TOTAL_GC_TIME_%_Copy], Time(%), 1.247900167986561
+[TOTAL_GCS_MarkSweepCompact], Count, 1.0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 19.0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.4559635229181665
+[TOTAL_GCs], Count, 17.0
+[TOTAL_GC_TIME], Time(ms), 71.0
+[TOTAL_GC_TIME_%], Time(%), 1.7038636909047278
+[READ], Operations, 1000.0
+[READ], AverageLatency(us), 71900.421
+[READ], MinLatency(us), 2328.0
+[READ], MaxLatency(us), 240127.0
+[READ], 95thPercentileLatency(us), 179711.0
+[READ], 99thPercentileLatency(us), 226431.0
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 100.0
+[CLEANUP], AverageLatency(us), 22272.21
+[CLEANUP], MinLatency(us), 0.0
+[CLEANUP], MaxLatency(us), 2228223.0
+[CLEANUP], 95thPercentileLatency(us), 1.0
+[CLEANUP], 99thPercentileLatency(us), 11.0
